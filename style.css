@@ -1,5 +1,5 @@
 /*
- * Absolute Position: anchors element to the first element (overall box)
+ * Fixed Position: Anchors element to the browser
  */
 
  .box-set {
@@ -9,15 +9,14 @@
 }
 
 .box {
-  /* Absolute Position */
-  position: absolute;
+  position: fixed;
   width: 150px;
   height: 150px;
   background: #2db34a;
   border: 2px solid black;
 }
 
-/* Box rules: percentages define anchors (i.e. position of each box relative to enclosing box) */
+/* Box rules: percentages define anchors (i.e. position of each box relative to browser window) */
 
 .box-1 {
   top: 6%;
